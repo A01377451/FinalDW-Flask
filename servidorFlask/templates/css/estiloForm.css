@@ -1,0 +1,63 @@
+.clase1{outline: thick double #32a1ce;}
+
+.container {
+    font-family: arial;
+    font-size: 20px;
+    margin: 10px;
+    width: 1350px;
+    height: 750px;
+    outline: 7px double #32a1ce;
+    /* Center vertically */
+    display: flex;
+    align-items: center;
+  }
+ 
+  .child {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+  }
+
+  .column {
+    float: center;
+    width: 50%;
+    background-color: #0d6dfd3b;
+  }
+  .col2 {
+    width: 33.33%;
+  }
+  
+  /* Título arcoíris */
+ 
+  .rainbow {
+    background-image: linear-gradient(to left, rgb(206, 152, 206), rgb(133, 88, 165), rgb(74, 74, 182), rgb(110, 173, 110), rgb(238, 238, 117), rgb(238, 185, 87), rgb(236, 117, 117));
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color:aliceblue;
+    height: 150px;
+    width: 1350px;
+  }
+  
+* {
+    outline-width: 10px;
+    padding: 10px;
+  }
+
+  
+/* styling the button*/
+a {
+    display: inline-block;
+    color: #587fd1;
+    letter-spacing: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 3em;
+    overflow: hidden;
+}
+
+/*creating animation effect*/
+a:hover {
+    color: rgb(0, 0, 0);
+    background: #0d6efd;
+    box-shadow: 0 0 25px #0d6efd;
+}
